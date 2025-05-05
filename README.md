@@ -16,7 +16,7 @@ conda activate RoboTwin
 pip install -r requirements.txt
  ```
 
-## part.1 data generation
+## Part.1 data generation
 
 Make sure your generated data are put  in the `./auto-tmp`folder.
 
@@ -309,6 +309,10 @@ run following command to start training:
 python main.py --name default --base configs/train.yaml --train --gpus 0,1
 ```
 
+![image](https://github.com/user-attachments/assets/ef17de53-4cc7-4634-9daa-2f423c09d035)
+![image](https://github.com/user-attachments/assets/3c48dbbe-aa88-49ae-9d00-ded78f6bb8a2)
+
+
 ## Part.5 evalutaion
 
 run following command to generate evalutaion results and predictions.
@@ -316,4 +320,10 @@ run following command to generate evalutaion results and predictions.
 ```bash
 python eval.py --ckpt logs/train_default/checkpoints/last.ckpt
 ```
+
+## Part.6 Experimental Results
+
+![image](https://github.com/user-attachments/assets/4365bda0-41f0-4262-aaeb-c467e03f5825)
+![image](https://github.com/user-attachments/assets/241dfd2a-5eeb-4dd7-bf94-e32e137a619c)
+![image](https://github.com/user-attachments/assets/2e51afae-2862-4250-a5b5-8e44b481b68d)
 
